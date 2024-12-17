@@ -1,0 +1,493 @@
+
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+.block1{
+   animation: appear linear;
+   animation-timeline: view();
+   animation-range: entry 0% cover 30%;
+}
+
+@keyframes appear{
+    from{
+        opacity: 0;
+        scale: 0.3;
+    }
+    to{
+        opacity: 1;
+    }
+}
+
+body{
+    background-color:#050231; /*#050231*/
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+nav{
+    background:black;
+    height: 80px;
+    width: 100%;
+    position: fixed;
+    z-index: 999;
+}
+label.logo{
+    color: white;
+    font-size: 35px;
+    line-height:80px;
+    padding: 0 100px;
+    font-weight: bold;
+}
+nav ul{
+    float: right;
+    margin-right: 50px;
+
+}
+nav ul li{
+    display: inline-block;
+    line-height: 80px;
+    margin: 0 5px;
+}
+nav ul li a{
+    color: white;
+    font-size: 20px;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+a:hover{
+    border-bottom: 5px solid orange;
+    border-top: 5px solid white;
+    color: white;
+    transition-duration: inherit;
+    transition:1s;
+    
+}
+.checkbutton{font-size: 30px;
+     color: white;
+     float: right;
+     line-height: 80px;
+     margin-right:40px;
+    cursor:pointer; 
+    display: none;
+}
+#check{
+    display: none;
+    }
+    .logo-2{
+        height:50px;
+        width: 50px;
+        border-radius: 50%;
+        position: absolute;
+        left: 35px;
+        top: 20px;
+    }
+.profile-image{
+    height: 400px;
+    width: 400px;
+    border-radius: 50%;
+    border:3px solid orange !important;
+    padding: 5px;
+    margin-left: 50px;
+}
+  .first-container{
+    padding-top: 150px !important;
+     margin-bottom: 70px !important;
+     margin-left: 30px;
+  }
+
+.txt{
+    color: white !important;
+}
+.txt1{
+    color: orangered;
+ }
+ .color2{
+    color:gold;
+    margin-bottom: 10px;
+ }
+.txt2{
+    margin-bottom: 30px;
+    color: white !important;
+}
+.btn1{
+    height: 50px;
+    width: 150px;
+    color: white;
+    border-radius: 10px;
+    background-color: orangered;
+    outline: none;
+    margin-bottom: 20px;
+
+}
+.btn1:hover{
+    border: 5px solid white;
+    box-shadow: 2px 0px 4px 1px white;
+}
+
+ .btn1>a{
+    border: none;
+    text-decoration: none;
+    color: white;
+ }
+ .address{
+    color: white;
+    opacity:0.6;
+ }
+ .contact-card{
+    margin-top: 50px;
+ }
+ 
+    /* skills-row  */
+
+            .box1{
+                        min-height:270px;
+                        min-width: 350px;
+                        border: 2px solid orangered;
+                        margin-right: 20px;
+                        border-radius: 10px;
+                        padding: 20px;
+                        margin-bottom: 20px;
+                        margin-left: 30px;
+                    }
+
+           .skills>img{
+            height: 30px;
+            width: 30px;
+            padding: 4px;
+            border-radius: 10px;
+            
+           }
+           
+           .skills{height: 40px;
+            margin: 0px 15px 10px 5px;
+            border: 2px solid orangered;
+            border-radius: 10px;
+            display: flex;
+            gap:4px;
+            padding: 7px;
+        transition: all;}
+
+            .skills:hover{
+                box-shadow: 3px 0px 4px 4px white;
+            }
+    
+ .div1{ 
+    
+            width: 120px;
+ }
+ .div2{
+            width: 90px;
+ }
+ .div3{
+    width:150px;
+ }
+ .div5{
+    width: 160px;
+ }
+ .skill{
+    margin-bottom: 70px;
+ }
+                /* visionary-container  */
+                .container-three{
+                    margin-top: 20px;
+                    margin-bottom: 30px;
+                }
+.box2{
+    min-height:200px;
+    min-width: 350px;
+    border: 2px solid orangered;
+    margin-right: 20px;
+     border-radius: 10px;
+     margin-bottom: 20px;
+     padding: 15px;
+    margin-left: 30px; }                      
+     
+     
+
+
+
+     /* projects container  */
+
+
+     .bnt-div{
+        min-height: 60px;
+       width:600px;
+        display: flex;
+        gap: 30px;
+        border-radius:10px;
+        border: none;
+        border:2px solid blueviolet;
+        background-color: transparent;
+        padding: 17px;
+        margin: auto;
+        overflow: hidden;
+     }
+     .bnt-div>p{
+       
+        color:white;
+        font-size: 20px;
+        margin-left: 30px;
+     }
+      .inner-button{
+        border: none;
+        border: 2px solid white;
+        height: 30px;
+        width: 100px;
+        border-radius: 10px;
+        background: transparent;
+        color: white;
+      }
+      .inner-button1{
+        min-width: 100px;
+        margin-left: 45px;
+        /* overflow: hidden; */
+      }
+      .inner-button2{
+      min-width: 120px;
+        overflow: hidden;
+      }
+      .inner-button3{
+        min-width: 150px;
+        overflow: hidden;
+      }
+      .inner-button:hover{
+        color: black;
+        background-color: orangered;
+        border: 2px solid black;
+        box-shadow: 3px 0px 4px 4px white;
+      }
+                         /* project-box */
+
+
+  .card-container{margin-left: 30px;
+                 margin-top: 50px;
+                margin-bottom: 30px;
+            }
+
+            .card{
+                height: 320px;
+                width: 300px;
+                background-color:orangered;
+                border:none;
+                border-radius: 10px;
+                padding: 18px;
+                margin: auto;
+                margin-bottom: 40px;
+                border: 2px solid white;
+
+            }    .card>img{
+                height:150px;
+                width:270px;
+                border-radius: 10px;
+                transition: all;
+                transition-duration: 1s;
+                transition-delay: 0.1s;
+            } .card>img:hover{
+                transform: scale(120%);
+            }   
+            .button1{
+                height: 30px;
+                width: 70px;
+                margin: 15px 5px 10px 5px;
+                border: none;
+                border-radius: 20px;
+                background-color:blueviolet;
+                color: white;
+            }
+            .card-btn1{
+                width: 100px;
+            }
+            .card-btn1:hover{
+                background-color:white;
+                color: black;
+        border: 2px solid black;
+        box-shadow: 3px 0px 4px 4px blue;
+            }
+            .card-btn:hover{
+                background-color:white;
+                color: black;
+        border: 2px solid black;
+        box-shadow: 3px 0px 4px 4px blue;
+
+            }
+
+
+            /* education container  */
+     .education{
+        min-height: 470px;
+        min-width: 350px;
+        padding: 40px;
+        border: 3px solid orangered;
+        
+        border-radius: 20px;
+        text-align: center;
+        margin: 10px 0px 40px 0px !important;
+        margin: auto;
+     }
+     .education:hover{ 
+        box-shadow: 3px 0px 4px 3px white;
+      
+
+     }
+     .grade{
+        text-align: start;
+     }
+
+
+              /* contact- container  */
+
+.form-headind{
+    display: flex;
+    gap: 10px;
+    margin: 20px;
+}
+.form-headind>img{
+    height: 30px;
+    width: 30px;
+    border-radius: 10px;
+    margin-top: 10px;
+}
+.contact-form{
+    height: 450px;
+    width: 400px;
+    background-color:orangered;
+    padding: 10px;
+    margin: auto;
+    border-radius: 10px;
+    margin-bottom: 40px;
+}
+
+
+.form-input{
+    height: 40px;
+    width: 300px;
+    border: none;
+    border-radius: 10px;
+    margin:8px;
+    padding: 10px;
+    outline: none;
+}
+#text-content{
+    height: 100px;
+    width: 300px;
+    border-radius: 5px;
+    outline: none;
+    padding: 10px;
+}
+.submit{
+    height: 40px;
+    width:300px;
+    border: none;
+    border-radius: 15px;
+    background-color: blue;
+    color: white;
+    margin-top: 10px;
+}
+
+
+        /* contact-name  */
+        .bottem-content{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 50px;
+            color: white;
+            margin-bottom: 30px;
+        }
+     .icons{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 50px; 
+     }
+     .icons>a{
+        color:orangered;
+        margin-bottom: 50px;
+        border: none;
+        font-size: 40px;
+     }
+     .bottem-content>a{text-decoration: none;
+        color: white;
+        font-size: 20px;
+        border: none;
+    }
+
+
+    @media (max-width:1020px){
+        label.logo{
+            font-size:30px;
+            padding-left:50px;
+        }
+        nav ul li a{
+            color: black;
+            font-size: 20px;
+            text-decoration: none;
+        }
+        .section{
+            background-size: cover;
+            flex-direction: column;
+        }
+        .logo-2{
+            left:0px;
+            top: 15px;
+        }
+    
+    }
+
+    @media (max-width:858px){
+        .checkbutton{
+            display: block;
+        }
+        .block1{
+            text-align: center;
+        }
+        ul{
+         position: fixed;
+         width: 100%;
+         height: 90vh;
+         background-color:sandybrown;
+         top: 80px;
+         right:-190%;
+         text-align: center;
+         transition: all 2s;
+         margin-right: 0;
+        }
+        nav ul li{
+            display: block;
+            margin: 50px 0;
+            line-height: 30px;
+            
+        }
+        nav ul li a{
+            color: black;
+            font-size: 25px;
+            font-weight: bold;
+            /* border-bottom: 5px solid blueviolet; */
+        }
+        a:hover,a.active{
+            background: none;
+            border-bottom: 5px solid blueviolet;
+        }
+        #check:checked ~ ul{
+            left:0;
+        }
+        .logo-2{
+            left: 0px;
+            top: 15px;
+        }
+        .profile-image{
+            margin-left: 0;
+        }
+        
+    }
+ 
+    @media (max-width:400px){
+        .bnt-div{
+            flex-direction: column;
+           margin-left: 40px;
+           min-height: 100px;
+           width: 200px;
+         
+        }
+    }
